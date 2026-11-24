@@ -6,7 +6,7 @@ repository metadata. Sources are declared in `sources.yaml`; nothing else is lis
 
 Import URL (Obtainium: Import/Export > Obtainium Import, or add it as a source):
 
-    https://github.com/OWNER/obtainium-thor-pack/releases/latest/download/obtainium-thor-pack.json
+    https://github.com/Ethiquema/obtainium-thor-pack/releases/latest/download/obtainium-thor-pack.json
 
 Repositories without an APK in their releases are skipped and listed in the job summary.
 Generated entries use a placeholder app id with `allowIdChange` enabled.
