@@ -39,3 +39,9 @@ jobs:
         run: |
           gh release view latest >/dev/null 2>&1 || gh release create latest --title latest --notes "Generated Obtainium import file."
           gh release upload latest obtainium-thor-pack.json --clobber
+      - name: Commit catalogue
+        run: |
+          git add README.md CATALOGUE.md
+          git diff --cached --quiet && exit 0
+          git -c user.name=${{ github.repository_owner }} -c user.email=${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com commit -m "Update catalogue"
+          git push

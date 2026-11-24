@@ -6,11 +6,13 @@ sources:
     repo: RJNY/Obtainium-Emulation-Pack
     asset_regex: '^obtainium-emulation-pack.*\.json$'
   - name: stopthink-dual-screen
-    type: json-url
-    url: https://raw.githubusercontent.com/stopthink/Obtainium-Emulation-Pack-Plus/main/obtainium-emulation-pack-dual-screen-latest.json
+    type: github-file
+    repo: stopthink/Obtainium-Emulation-Pack-Plus
+    path: obtainium-emulation-pack-dual-screen-latest.json
   - name: stopthink-standard
-    type: json-url
-    url: https://raw.githubusercontent.com/stopthink/Obtainium-Emulation-Pack-Plus/main/obtainium-emulation-pack-latest.json
+    type: github-file
+    repo: stopthink/Obtainium-Emulation-Pack-Plus
+    path: obtainium-emulation-pack-latest.json
   - name: bboi34-recomp-decomp
     type: deeplink-page
     url: https://codeberg.org/BBoi34/Obtainium-Recomp-Decomp/raw/branch/main/README.md
@@ -26,4 +28,5 @@ sources:
     urls: []
   - name: dual-screen-catalogue
     type: link-page
-    url: https://raw.githubusercontent.com/codm2000/Dual-Screen-Games/main/README.md
+    repo: codm2000/Dual-Screen-Games
+    path: README.md
