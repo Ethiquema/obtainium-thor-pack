@@ -1,0 +1,41 @@
+name: generate
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [generate.py, sources.yaml, .github/workflows/generate.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install pyyaml
+      - name: Generate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 generate.py 2> report.txt
+      - name: Report
+        if: always()
+        run: cat report.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Validate
+        run: python3 -c "import json; a=json.load(open('obtainium-thor-pack.json'))['apps']; assert a and len({x['id'] for x in a})==len(a)"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title latest --notes "Generated Obtainium import file."
+          gh release upload latest obtainium-thor-pack.json --clobber

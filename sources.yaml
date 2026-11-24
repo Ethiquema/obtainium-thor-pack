@@ -1,0 +1,29 @@
+# Ordered by priority: the first source providing an app wins.
+# Apps are deduplicated by normalized repository URL, then by app id.
+sources:
+  - name: rjny
+    type: github-release-asset
+    repo: RJNY/Obtainium-Emulation-Pack
+    asset_regex: '^obtainium-emulation-pack.*\.json$'
+  - name: stopthink-dual-screen
+    type: json-url
+    url: https://raw.githubusercontent.com/stopthink/Obtainium-Emulation-Pack-Plus/main/obtainium-emulation-pack-dual-screen-latest.json
+  - name: stopthink-standard
+    type: json-url
+    url: https://raw.githubusercontent.com/stopthink/Obtainium-Emulation-Pack-Plus/main/obtainium-emulation-pack-latest.json
+  - name: bboi34-recomp-decomp
+    type: deeplink-page
+    url: https://codeberg.org/BBoi34/Obtainium-Recomp-Decomp/raw/branch/main/README.md
+  - name: joeys-obtainium
+    type: github-release-asset
+    repo: JoeysRetroHandhelds/joeys-obtainium
+    asset_regex: '^joeys-obtainium\.json$'
+  # Repositories without a pack entry: an entry is generated from the
+  # repository metadata, only when a release ships an APK.
+  - name: extra-repos
+    type: repos
+    category: Emulator
+    urls: []
+  - name: dual-screen-catalogue
+    type: link-page
+    url: https://raw.githubusercontent.com/codm2000/Dual-Screen-Games/main/README.md
