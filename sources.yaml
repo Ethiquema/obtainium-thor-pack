@@ -24,8 +24,12 @@ sources:
   # repository metadata, only when a release ships an APK.
   - name: extra-repos
     type: repos
-    category: Emulator
-    urls: []
+    category: Companion Apps
+    urls:
+      - https://github.com/alex61194/pokeemerald-dualscreen
+      - https://github.com/psspssr/pokeemerald-3Ds-dualscreen-thor
+      - https://github.com/wyatt-poole/duoboy-advance
+      - https://github.com/KaitonGxx/thor-pathfinder
   - name: dual-screen-catalogue
     type: link-page
     repo: codm2000/Dual-Screen-Games
