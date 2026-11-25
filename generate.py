@@ -46,6 +46,24 @@ SETTINGS_KEYS = {
 }
 
 
+def https_opener():
+    """An opener that can only speak HTTPS: file:, ftp: and plain http: have no
+    handler, including after a redirect."""
+    opener = urllib.request.OpenerDirector()
+    for handler in (
+        urllib.request.UnknownHandler,
+        urllib.request.HTTPSHandler,
+        urllib.request.HTTPDefaultErrorHandler,
+        urllib.request.HTTPRedirectHandler,
+        urllib.request.HTTPErrorProcessor,
+    ):
+        opener.add_handler(handler())
+    return opener
+
+
+OPENER = https_opener()
+
+
 def get(url, accept=None):
     req = urllib.request.Request(
         url, headers={"User-Agent": "obtainium-pack-generator"}
@@ -54,9 +72,11 @@ def get(url, accept=None):
         req.add_header("Accept", accept)
     if TOKEN and "api.github.com" in url:
         req.add_header("Authorization", f"Bearer {TOKEN}")
-    for attempt in range(1, 4):
+    attempt = 0
+    while True:
+        attempt += 1
         try:
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with OPENER.open(req, timeout=30) as r:
                 return r.read().decode("utf-8")
         except OSError as e:
             if attempt == 3:
