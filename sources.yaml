@@ -34,3 +34,8 @@ sources:
     type: link-page
     repo: codm2000/Dual-Screen-Games
     path: README.md
+  # GAFT (Games & Apps for AYN Thor): every project page links its repository.
+  - name: gaft
+    type: link-page
+    url: https://andreyvelsk.github.io/GAFT/_payload.json
+    category: GAFT

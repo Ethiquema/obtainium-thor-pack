@@ -98,9 +98,10 @@ def apps_from_deeplinks(text):
     return apps
 
 
-def repos_from_page(text):
-    """Repo URLs with the nearest preceding '##' heading as category."""
-    out, cat = [], ""
+def repos_from_page(text, default=""):
+    """Repo URLs with the nearest preceding '##' heading as category (default if none)."""
+    text = re.sub(r"\\u([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), text)
+    out, cat = [], default
     for line in text.splitlines():
         h = re.match(r"^#{2,3}\s+(.+?)\s*$", line)
         if h:
@@ -247,7 +248,10 @@ def main():
             cands = [(u, src.get("category", "")) for u in src["urls"]]
             entries = [(None, u, c) for u, c in cands]
         elif t == "link-page":
-            entries = [(None, u, c) for u, c in repos_from_page(fetch_file(src))]
+            entries = [
+                (None, u, c)
+                for u, c in repos_from_page(fetch_file(src), src.get("category", ""))
+            ]
         else:
             if t == "github-release-asset":
                 rel = json.loads(
