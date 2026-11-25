@@ -1,6 +1,6 @@
 # Catalogue
 
-161 apps, generated automatically. Do not edit.
+165 apps, generated automatically. Do not edit.
 
 ## Sources (priority order)
 
@@ -11,21 +11,25 @@
 | [stopthink-standard](https://github.com/stopthink/Obtainium-Emulation-Pack-Plus) | github-file | 0 |
 | [bboi34-recomp-decomp](https://codeberg.org/BBoi34/Obtainium-Recomp-Decomp/raw/branch/main/README.md) | deeplink-page | 25 |
 | [joeys-obtainium](https://github.com/JoeysRetroHandhelds/joeys-obtainium) | github-release-asset | 3 |
-| extra-repos | repos | 0 |
+| extra-repos | repos | 4 |
 | [dual-screen-catalogue](https://github.com/codm2000/Dual-Screen-Games) | link-page | 48 |
 
-## Companion Apps (9)
+## Companion Apps (13)
 
 | App | Description | Source |
 |---|---|---|
 | [DualScreenDex](https://github.com/enrique-paulino/DualScreenDex) | DualScreenDex is a companion Pokedex app designed specifically for dual-screen Android gaming handhelds (like the Ayn Thor). It uses live OCR screen scanning to automatically detect the Pokémon currently on your screen and display their stats, weaknesses, and resistances instantly. | dual-screen-catalogue |
 | [DualScreenDex](https://github.com/Darkaxt/DualScreenDex) | Passive ROM-derived Pokédex companion for GB/GBC/GBA Pokémon games in RetroArch. Parses each ROM locally, reads SaveRAM and validated live memory, and provides dual-screen or overlay battle, map, team, area, evolution, move, and ability views—without OCR, cheats, or per-hack profiles. | dual-screen-catalogue |
+| [duoboy-advance](https://github.com/wyatt-poole/duoboy-advance) | Dual-screen GBA for Android handhelds (AYN Thor): Pokémon Unbound with a 3DS-style touch bottom screen. Bring your own ROM. | extra-repos |
 | [FanmakePokemonMaps_Android](https://github.com/ChimeraGaming/FanmakePokemonMaps_Android) | A live map database built for the AYN Thor (JoiPlay). | dual-screen-catalogue |
 | [gba-ds](https://github.com/kyannon/gba-ds) | Dual-screen GBA for your Android or Linux emulation handheld. | dual-screen-catalogue |
 | [Heimdall-AYN-Thor-Assistant](https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant) | An open-source lower-screen assistant for AYN Thor. | dual-screen-catalogue |
 | [NativeAlphaForAndroid](https://github.com/cylonid/NativeAlphaForAndroid) |  | dual-screen-catalogue |
 | [PixelNavigator](https://github.com/ChimeraGaming/PixelNavigator) | A retro gaming companion for the AYN Thor, with live maps, a ROM library, and playtime tracking. | dual-screen-catalogue |
 | [PKForge](https://github.com/sofianeelhor/PKForge) | Pokémon save editor and bank for Android | dual-screen-catalogue |
+| [pokeemerald-3Ds-dualscreen-thor](https://github.com/psspssr/pokeemerald-3Ds-dualscreen-thor) | Unofficial Pokemon Emerald Android port for AYN Thor: dual-screen touch menus, classic 2D and optional voxel graphics. | extra-repos |
+| [pokeemerald-dualscreen](https://github.com/alex61194/pokeemerald-dualscreen) | Pokemon Emerald ported to multiple platforms | extra-repos |
+| [thor-pathfinder](https://github.com/KaitonGxx/thor-pathfinder) | Swap apps between the AYN Thor's two screens and put shortcuts on its buttons. Free and open source (GPL-3.0). | extra-repos |
 | [thor-wayfinder](https://github.com/Thor-Wayfinder/thor-wayfinder) | Wayfinder — two screens, one controller. Moves apps between the AYN Thor's screens, per-game controls, quick panel. Source-available. | dual-screen-catalogue |
 
 ## Decomps/Recomps (21)
