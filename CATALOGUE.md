@@ -12,8 +12,8 @@
 | [bboi34-recomp-decomp](https://codeberg.org/BBoi34/Obtainium-Recomp-Decomp/raw/branch/main/README.md) | deeplink-page | 25 |
 | [joeys-obtainium](https://github.com/JoeysRetroHandhelds/joeys-obtainium) | github-release-asset | 3 |
 | extra-repos | repos | 4 |
-| [dual-screen-catalogue](https://github.com/codm2000/Dual-Screen-Games) | link-page | 48 |
-| [gaft](https://andreyvelsk.github.io/GAFT/_payload.json) | link-page | 67 |
+| [dual-screen-catalogue](https://github.com/codm2000/Dual-Screen-Games) | link-page | 47 |
+| [gaft](https://andreyvelsk.github.io/GAFT/_payload.json) | link-page | 68 |
 
 ## Companion Apps (13)
 
@@ -113,7 +113,7 @@
 | [Pegasus](https://github.com/mmatyas/pegasus-frontend) | Cross-platform graphical game launcher | rjny |
 | [RetroHrai](https://github.com/retrohrai/Releases) | Retro game launcher | rjny |
 
-## GAFT (67)
+## GAFT (68)
 
 | App | Description | Source |
 |---|---|---|
@@ -157,6 +157,7 @@
 | [PPSSPP-Duo](https://github.com/mkaflowski/PPSSPP-Duo) | Dual screen implementation of PPSSPP | gaft |
 | [ppsspp-lnk](https://github.com/EmuLnk/ppsspp-lnk) | A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues. For discussion use the forums at forums.ppsspp.org. | gaft |
 | [RE2DS](https://github.com/mesho3d/RE2DS) | A modified Dolphin emulator for Resident Evil 2 USA (GHAE08) on AYN Thor, with a live map and inventory on the second screen. | gaft |
+| [retro-ds](https://github.com/iosue-iulianus/retro-ds) | Your favourite classics, with the second screen they never had: Super Nintendo and PlayStation games on dual-screen Android handhelds (built for the Retroid Pocket Duo). Not a Nintendo DS emulator. | gaft |
 | [retroarch-lnk](https://github.com/EmuLnk/retroarch-lnk) | Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3. | gaft |
 | [Shipwright-Android-Dual-Screen-Bleeding-Edge](https://github.com/Dizax-git/Shipwright-Android-Dual-Screen-Bleeding-Edge) | Ship of Harkinian for the AYN Thor with a rando tracker on the bottom screen | gaft |
 | [ShulkDS](https://github.com/NaiSenshin/ShulkDS) | A dual-screen Minecraft Java client for Android handhelds like the Retroid Pocket Duo and AYN Thor. | gaft |
@@ -185,11 +186,11 @@
 | [ZeldaWWHDRecompAndroid](https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid) | TLoZ:TWW HD Recomp | gaft |
 | [ZeldaWWHDRecompAndroid---ENHANCED](https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED) | Wind Waker HD recompiled for Android (native ARM + Vulkan, no emulator), enhanced: native widescreen, fixed shadows, pinch-to-zoom camera, phone-made touch controls with in-game icons, 60 fps interpolation and performance work. Bring your own game dump. | gaft |
 
-## Games (39)
+## Games (38)
 
 | App | Description | Source |
 |---|---|---|
-| [AM2R-Autopatcher-Android](https://github.com/am2r-android/AM2R-Autopatcher-Android) | Android app tool that patches AM2R 1.1.zip into modern android | dual-screen-catalogue |
+| [AM2R-Autopatcher-Android](https://github.com/am2r-android/AM2R-Autopatcher-Android) | Android app tool that patches AM2R 1.1.zip into modern android (legacy) | dual-screen-catalogue |
 | [augustus-thor](https://github.com/simonbrtrnd/augustus-thor) | Caesar III on the AYN Thor, using both screens. A fork of Augustus. | dual-screen-catalogue |
 | [AYN-Thor-WoW-Launcher](https://github.com/wyattabuntjer/AYN-Thor-WoW-Launcher) | Play any flavor of World of Warcraft on your AYN Thor! | dual-screen-catalogue |
 | [AynThorSecondScreen](https://github.com/exojosh/AynThorSecondScreen) | Second Screen Helper Mod for Minecraft that moves HUD content and various other features to the bottom screen of a dual screen android device. | dual-screen-catalogue |
@@ -210,7 +211,6 @@
 | [HuntersRecomp](https://github.com/aabrole/HuntersRecomp) | Metroid Prime Hunters recomp for the AYN Thor: native dual-screen Android port with twin-stick Prime controls and HD GLES rendering | dual-screen-catalogue |
 | [OpenFusion-Pocket](https://github.com/rsigristc/OpenFusion-Pocket) | Native Android FusionFall client rebuilt in Unity 2022.3 LTS. Unofficial community preservation project developed with substantial AI assistance. | dual-screen-catalogue |
 | [paper-cut](https://github.com/LLCOOLT/paper-cut) | Paper Cut brings a paper adventure to PC and mobile platforms with a variety of fixes and improvements (AI-assisted) | dual-screen-catalogue |
-| [pokedaisy](https://github.com/lidor30/pokedaisy) | A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks. | dual-screen-catalogue |
 | [pokeemerald-dualscreen](https://github.com/Goldoire/pokeemerald-dualscreen) | Pokemon Emerald ported to multiple platforms | dual-screen-catalogue |
 | [pt-pc](https://github.com/StoneColdOS/pt-pc) | Native PC port of P.T. (runs from your own PS4 game files) | dual-screen-catalogue |
 | [rerac-Android-APK-and-Ayn-Thor-Dual-Screen-Mod-Beta-](https://github.com/HighDrexler/rerac-Android-APK-and-Ayn-Thor-Dual-Screen-Mod-Beta-) | ReRAC: The Ratchet & Clank Rewrite fork for android/.apk and an built in dual screen (only ayn thor tested) mod | dual-screen-catalogue |
@@ -329,5 +329,6 @@
 - github.com/hung-eggie-do-covergo/stardew-thor-dual-screen
 - github.com/igawa6/eden-duo-companions
 - github.com/khumam/gba-duo-companions
+- github.com/lidor30/pokedaisy
 - github.com/pret/pokeemerald
 - github.com/sirtobygirl/chronicle-dual-screen
