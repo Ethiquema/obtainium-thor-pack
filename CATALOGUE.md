@@ -1,6 +1,6 @@
 # Catalogue
 
-232 apps, generated automatically. Do not edit.
+233 apps, generated automatically. Do not edit.
 
 ## Sources (priority order)
 
@@ -13,7 +13,7 @@
 | [joeys-obtainium](https://github.com/JoeysRetroHandhelds/joeys-obtainium) | github-release-asset | 3 |
 | extra-repos | repos | 4 |
 | [dual-screen-catalogue](https://github.com/codm2000/Dual-Screen-Games) | link-page | 47 |
-| [gaft](https://andreyvelsk.github.io/GAFT/_payload.json) | link-page | 68 |
+| [gaft](https://andreyvelsk.github.io/GAFT/_payload.json) | link-page | 69 |
 
 ## Companion Apps (13)
 
@@ -113,7 +113,7 @@
 | [Pegasus](https://github.com/mmatyas/pegasus-frontend) | Cross-platform graphical game launcher | rjny |
 | [RetroHrai](https://github.com/retrohrai/Releases) | Retro game launcher | rjny |
 
-## GAFT (68)
+## GAFT (69)
 
 | App | Description | Source |
 |---|---|---|
@@ -141,6 +141,7 @@
 | [FightNight3OGX](https://github.com/Oxide-Shift/FightNight3OGX) | Play Fight Night Round 3 from your own original Xbox disc image on ARM64 Android, with a touchscreen corner on dual-screen handhelds. | gaft |
 | [FTLDS](https://github.com/mrmushrooms11/FTLDS) | A Dual-Screen Port of Faster Than Light for Android Devices | gaft |
 | [game-twin](https://github.com/alpha-minus/game-twin) |  | gaft |
+| [Gameplay](https://github.com/intercontinentalmassacre/Gameplay) | Play your PC games on Android | gaft |
 | [gba-duo](https://github.com/khumam/gba-duo) | GBADuo is a Game Boy Advance, Game Boy Color and Game Boy player for dual-screen Android handhelds. | gaft |
 | [generals-zero-hour-ayn-thor](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor) | Thor RTS: a native Android port for playing Generals: Zero Hour on the AYN Thor, with controller support and a two-screen command deck. | gaft |
 | [GZSelaco-android](https://github.com/danillogical/GZSelaco-android) | Unofficial Android and macOS port of Selaco | gaft |
@@ -332,3 +333,4 @@
 - github.com/lidor30/pokedaisy
 - github.com/pret/pokeemerald
 - github.com/sirtobygirl/chronicle-dual-screen
+- github.com/user-attachments/assets
