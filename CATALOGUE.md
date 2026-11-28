@@ -1,6 +1,6 @@
 # Catalogue
 
-233 apps, generated automatically. Do not edit.
+234 apps, generated automatically. Do not edit.
 
 ## Sources (priority order)
 
@@ -13,7 +13,7 @@
 | [joeys-obtainium](https://github.com/JoeysRetroHandhelds/joeys-obtainium) | github-release-asset | 3 |
 | extra-repos | repos | 4 |
 | [dual-screen-catalogue](https://github.com/codm2000/Dual-Screen-Games) | link-page | 47 |
-| [gaft](https://andreyvelsk.github.io/GAFT/_payload.json) | link-page | 69 |
+| [gaft](https://andreyvelsk.github.io/GAFT/_payload.json) | link-page | 70 |
 
 ## Companion Apps (13)
 
@@ -113,7 +113,7 @@
 | [Pegasus](https://github.com/mmatyas/pegasus-frontend) | Cross-platform graphical game launcher | rjny |
 | [RetroHrai](https://github.com/retrohrai/Releases) | Retro game launcher | rjny |
 
-## GAFT (69)
+## GAFT (70)
 
 | App | Description | Source |
 |---|---|---|
@@ -139,6 +139,7 @@
 | [ff8-recomp-android](https://github.com/bhuiyah/ff8-recomp-android) | FINAL FANTASY VIII (2013 or Remastered) recompiled to native ARM64 Android, built on your device from your own copy | gaft |
 | [ffxii-thor-companion](https://github.com/Cybranfox/ffxii-thor-companion) | Live second-screen companion for FFXII The Zodiac Age on the AYN Thor (GameNative) | gaft |
 | [FightNight3OGX](https://github.com/Oxide-Shift/FightNight3OGX) | Play Fight Night Round 3 from your own original Xbox disc image on ARM64 Android, with a touchscreen corner on dual-screen handhelds. | gaft |
+| [flycast](https://github.com/ItsRetroPup/flycast) | Flycast is a multiplatform Sega Dreamcast, Naomi, Naomi 2 and Atomiswave emulator | gaft |
 | [FTLDS](https://github.com/mrmushrooms11/FTLDS) | A Dual-Screen Port of Faster Than Light for Android Devices | gaft |
 | [game-twin](https://github.com/alpha-minus/game-twin) |  | gaft |
 | [Gameplay](https://github.com/intercontinentalmassacre/Gameplay) | Play your PC games on Android | gaft |
